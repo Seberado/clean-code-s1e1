@@ -81,6 +81,7 @@ input[type='text'] {
 	border-radius: 6px;
 	font-family: Lato, sans-serif;
 	color: #888;
+	padding: 20px 0;
 }
 input[type='text']:focus {
 	color: #333;
@@ -100,6 +101,7 @@ li {
 	overflow: hidden;
 	padding: 20px 0;
 	border-bottom: 1px solid #eee;
+	padding-top: 1;
 
 	display: flex;
 	justify-content: space-between;
@@ -147,5 +149,8 @@ ul li.editMode input[type='text'] {
 }
 
 ul li.editMode label {
-	display: none;
+	display:none;
+}
+input[type='text']:focus {
+	color: #333;
 }
